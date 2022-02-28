@@ -29,7 +29,7 @@ p {
   overflow: hidden;
   color: var(--font-color);
   background-color: var(--bg-color);
-  background-image: url("/background-image.png");
+  background-image: url("/images/background-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -107,8 +107,9 @@ p {
 }
 
 #profile-picture {
-  width: 75px;
   margin: 10px;
+  width: 75px;
+  border-radius: 50%;
 }
 
 #personal-info-details-container {
